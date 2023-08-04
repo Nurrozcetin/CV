@@ -1,0 +1,145 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar-container {
+    background-color: #663a82;
+    height: 105px;
+    width: 1905px;
+}
+
+.navbar-items {
+    width: 87%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 75 0 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.name {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-top: 20px;
+    width: 20%;
+}
+
+.menu {
+    text-transform: uppercase;
+    font-size: 24px;
+    color: white;
+    padding: 0px 20px 0px 20px;
+}
+
+.menu>span {
+    padding: 0 15px;
+    font-size: 25px;
+    width: 30%;
+    height: 30%;
+}
+
+.menu>span:hover {
+    color: black;
+    border-radius: 10%;
+    transition: 0.5s;
+}
+
+.big-container {
+    background-color: #7c5295;
+    height: 1100px;
+    width: 1905px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.big-container > span {
+    color:wheat;
+    padding: 0px 0px 0px 7px;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.image {
+    width: 700px;
+    height: 600px;
+    padding: 10px 0px 0px 0px;
+    border-radius: 30%;
+    float: left;
+}
+
+.big-container > p{
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.experience {
+    color: wheat;
+    font-size: 35px;
+    
+}
+
+.experience >p {
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.smallContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.certification {
+    color: wheat;
+    font-size: 35px;
+}
+
+.certification ul a {
+    color: whitesmoke;
+    size: 25px;
+} 
+
+.contact > h2 {
+    color: wheat;
+    font-size: 35px;
+}
+
+.contact > a {
+    font-size:30px;
+    color: #ffffff;
+}
+
+.contact > p {
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.contact a i {
+    color: #ffffff;
+    font-size: 40px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.skills {
+    color: wheat;
+    font-size: 35px;
+}
+
+.skills > p{
+    color: #ffffff;
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+      background-color:#7c5295;
+    }
+  }
+
+
+
+
